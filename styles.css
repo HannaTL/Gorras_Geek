@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  width: 99%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header .logo span {
+  color: blank;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+.section-home {
+  width: 80%; /* Use a percentage to make it responsive */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.section-tienda {
+  width: 80%; /* Use a percentage to make it responsive */
+  background-color: orange;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.section-Contacto {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px #0000001a;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-Contacto h2 {
+  color: orange;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+}
+
+.form-container {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-container h2 {
+  color: orange;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container label {
+  font-size: 1.2em;
+  color: black;
+}
+
+.form-container input,
+textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: black;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+footer img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+footer .social-icons {
+    margin: 10px 0;
+}
+footer .social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+footer p {
+    color: black;
+}
+footer .brand-name {
+    color: orange;
+    font-weight: bold;
+}
