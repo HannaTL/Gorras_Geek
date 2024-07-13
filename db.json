@@ -1,0 +1,27 @@
+{
+  "productos": [
+    {
+      "id": "a462",
+      "nombre": "Gorra",
+      "precio": 30,
+      "imagen": "/img/gorra2.jpeg"
+    },
+    {
+      "id": "10af",
+      "nombre": "Gorra",
+      "precio": 20,
+      "imagen": "/img/gorra1.jpeg"
+    }
+  ],
+  "contactos": [
+    {
+      "id": "2271",
+      "nombreApellido": "Hanna Trejo",
+      "correoElectronico": "hg.trejolimon@gmail.com",
+      "telefono": "3333333333",
+      "mensaje": "Hola",
+      "contacto": "whatsapp",
+      "novedades": true
+    }
+  ]
+}
